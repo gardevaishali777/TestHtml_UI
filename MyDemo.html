@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>HTML Project</title>
+</head>
+<style>
+h3:before {
+    content: ' \25C0';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 620px; 
+  
+}
+
+.left {
+  width: 8%;
+}
+
+.right {
+  width: 92%;
+}
+
+textarea {
+  width: 40%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+}
+
+</style>
+<body>
+	 <table id="header" border="0" width="100%" cellpadding="0" cellspacing="3" bgcolor="#FEFCFF">
+        <tr>
+            <td>
+                <img src="IconImg.png" width="8%">              
+            </td>
+            <td >
+                &nbsp;
+            </td>
+
+        </tr>
+
+
+    </table>
+    
+    <div class="row">
+        <div class="column left" style="background-color:#FEFCFF;border-collapse: collapse;">
+           <tr>
+               <td>
+                    <a href="#student">
+                        <img type="text/css" src="link1.png">
+                    </a>
+               </td>
+           </tr> 
+           <tr>
+               <td>
+                    <a href="#LessonPlan">
+                        <img src="link2.png">
+                    </a>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                <a href="#Settings">
+                   <img src="link3.png">
+                </a>
+               </td>
+           </tr>
+            
+        </div>
+        <div class="column right" style="background-color:#F5F5F5;">
+            <h3>Video</h3>
+            <br>
+            <br>
+            <table align="center">
+                <tr>
+                    <td height="40" align="center" valign="middle" colspan="2">
+                        <form style="box-sizing: border-box;">
+                            <input type="url" name="url" id="url" placeholder="Insert URL here" pattern="https://.*" size="70" required align="middle">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="text-align:center; font-weight: bold;">or</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form>
+                            <textarea> upload </textarea>
+                        </form>
+                    </td>
+                </tr>
+            </table>       
+            
+        </div>
+    </div>
+    
+
+     
+
+   
+</body>
